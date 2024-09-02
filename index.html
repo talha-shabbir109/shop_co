@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP.CO</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="notification-area">
+                <p>
+                    Sign up and get 20% off to your first order.
+                    <a class="sign-up-link" href="">Sign Up Now</a>
+                </p>
+                <img class="x-icon" src="Media/x-icon.svg" alt="Cross-Button">
+            </div>
+            <nav>
+                <div class="logo">
+                    <img class="brand-logo" src="Media/logo.svg" alt="Brand Logo">
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item drop-down-menu">
+                            <a class="menu-link" href="#">shop</a>
+                            <img class="drop-down" src="Media/chevron-down.svg" alt="chevron-down">
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">on sale</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">New Arrivals</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">brands</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-products">
+                    <img src="Media/search-icon.svg" alt="search-icon" class="search-icon">
+                    <input type="text" id="search-bar" placeholder="Search for products...">
+                </div>
+                <div class="profile">
+                    <img src="Media/cart-icon.svg" alt="cart-icon">
+                    <img src="Media/profile-icon.svg" alt="profile-picture">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="section-content">
+                    <h1 class="title">Find Clothes That Matches Your Style</h1>
+                    <p class="title-desc">
+                        Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
+                    </p>
+                    <button>Shop Now</button>
+                    <table class="statistics">
+                        <tr>
+                            <td class="stat-item brands-stat">
+                                <span class="stat-number">200+</span>
+                                <span class="stat-content">international brands</span>
+                            </td>
+                            <td class="stat-item products-stat">
+                                <span class="stat-number">2000+</span>
+                                <span class="stat-content">high quality products</span>
+                            </td>
+                            <td class="stat-item customers-stat">
+                                <span class="stat-number">30000+</span>
+                                <span class="stat-content">happy customers</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="section-img">
+                    <img src="Media/star.svg" alt="hero-image">
+                    <img class="small-star" src="Media/star.svg" alt="hero-image">
+                </div>
+            </section>
+            <div class="brands">
+                <img src="Media/Group.svg" alt="versace-logo">
+                <img src="Media/zara-logo.svg" alt="zara-logo">
+                <img src="Media/gucci-logo.svg" alt="gucci-logo">
+                <img src="Media/prada-logo.svg" alt="prada-logo">
+                <img src="Media/Group (1).svg" alt="calvin klein-logo">
+            </div>
+            <section class="products new-arrivals">
+                <h1 class="section-heading">New Arrivals</h1>
+                <div class="products-section-content">
+                    <div class="product-card">
+                        <img src="Media/taped-t-shirt.svg" alt="taped-t-shirt-picture">
+                        <p class="product-title">t-shirt with tape details</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <p class="price">$120</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="Media/jeans.svg" alt="">
+                        <p class="product-title">skinny fit jeans</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <div class="price-container">
+                            <p class="new price">$240</p>
+                            <p class="old price"><s>$260</s></p>
+                            <p class="discount">-20%</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Media/dress-shirt.svg" alt="">
+                        <p class="product-title">checkered shirt</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <p class="price">$180</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="Media/lining-shirt.svg" alt="">
+                        <p class="product-title">sleeves striped shirt</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <div class="price-container">
+                            <p class="new price">$130</p>
+                            <p class="old price"><s>$160</s></p>
+                            <p class="discount">-30%</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="view-all-btn">view all</button>
+            </section>
+            <section class="products top-selling">
+                <h1 class="section-heading">Top Selling</h1>
+                <div class="products-section-content">
+                    <div class="product-card">
+                        <img src="Media/verticle-stripped-shirt.svg" alt="taped-t-shirt-picture">
+                        <p class="product-title">verticle striped shirt</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <div class="price-container">
+                            <p class="new price">$212</p>
+                            <p class="old price"><s>$232</s></p>
+                            <p class="discount">-20%</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Media/courage-t-shirt.svg" alt="courage-t-shirt-picture">
+                        <p class="product-title">courage graphic t-shirt</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <p class="price">$145</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="Media/bermuda shorts.svg" alt="bermuda-shorts">
+                        <p class="product-title">loose fit bermuda shorts</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <p class="price">$80</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="Media/faded skinny jeans.svg" alt="">
+                        <p class="product-title">faded skinny jeans</p>
+                        <div class="product-rating">
+                            <img src="Media/star-rating.svg" alt="star-ratings">
+                            <p class="number-rating">4.5/<span>5</span></p>
+                        </div>
+                        <p class="price">$210</p>
+                    </div>
+                </div>
+                <button class="view-all-btn">view all</button>
+            </section>
+            <section class="categories">
+                <h1 class="section-heading">Browse By Categories</h1>
+                <div class="casual">casual</div>
+                <div class="formal">formal</div>
+                <div class="party">party</div>
+                <div class="gym">gym</div>
+            </section>
+            <section class="happy-customers">
+                <div class="section-heading-container">
+                    <h1 class="section-heading">Our Happy Customers</h1>
+                    <div class="chevron-container">
+                        <img src="Media/chevron-left.svg" alt="chevron-left">
+                        <img src="Media/chevron-right.svg" alt="chevron-right">
+                    </div>
+                </div>
+                <div class="reviews-container">
+                    <div class="review-card">
+                        <img src="Media/5-stars-rating.svg" alt="5-stars-rating">
+                        <div class="review-profile">
+                            <p>sara m.</p>
+                            <img src="Media/green-tick.svg" alt="green-tick">
+                        </div>
+                        <p class="review-content">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                    <div class="review-card">
+                        <img src="Media/5-stars-rating.svg" alt="5-stars-rating">
+                        <div class="review-profile">
+                            <p>alex k.</p>
+                            <img src="Media/green-tick.svg" alt="green-tick">
+                        </div>
+                        <p class="review-content">"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+                    </div>
+                    <div class="review-card">
+                        <img src="Media/5-stars-rating.svg" alt="5-stars-rating">
+                        <div class="review-profile">
+                            <p>james l.</p>
+                            <img src="Media/green-tick.svg" alt="green-tick">
+                        </div>
+                        <p class="review-content">"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contact-form">
+                <h1 class="contact-form-heading section-heading">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+                <form action="">
+                    <div class="mail-box">
+                        <img src="Media/Vector.svg" alt="Vector">
+                        <input type="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="subscribe-btn">
+                        <button>subscribe to newsletter</button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer-menu">
+                <div class="footer-logo">
+                    <img src="Media/logo.svg" alt="logo">
+                    <p class="footer-logo-desc">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                    <div class="social">
+                        <img src="Media/twitter.svg" alt="twitter">
+                        <img src="Media/logo-fb-simple 2.svg" alt="logo-fb-simple">
+                        <img src="Media/insta.svg" alt="">
+                        <img src="Media/logo-github 1.svg" alt="logo-github">
+                    </div>
+                </div>
+                <div class="company footer-sub-menu">
+                    <p class="submenu-heading">company</p>
+                    <ul>
+                        <li>about</li>
+                        <li>features</li>
+                        <li>works</li>
+                        <li>career</li>
+                    </ul>
+                </div>
+                <div class="help footer-sub-menu">
+                    <p class="submenu-heading">help</p>
+                    <ul>
+                        <li>Customer Support</li>
+                        <li>Delivery Details</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="faqs footer-sub-menu">
+                    <p class="submenu-heading">faq</p>
+                    <ul>
+                        <li>Account</li>
+                        <li>Manage Deliveries</li>
+                        <li>Orders</li>
+                        <li>Payments</li>
+                    </ul>
+                </div>
+                <div class="resources footer-sub-menu">
+                    <p class="submenu-heading">resources</p>
+                    <ul>
+                        <li>Free eBooks</li>
+                        <li>Development Tutorial</li>
+                        <li>How to - Blog</li>
+                        <li>Youtube Playlist</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <div class="copyright">
+                    <p>Shop.co © 2000-2024, All Rights Reserved</p>
+                </div>
+                <div class="payment-method-cards">
+                    <img src="Media/Visa.svg" alt="Visa">
+                    <img src="Media/Mastercard.svg" alt="Mastercard">
+                    <img src="Media/Paypal.svg" alt="Paypal">
+                    <img src="Media/ Pay.svg" alt="Pay">
+                    <img src="Media/G Pay.svg" alt="G Pay">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
